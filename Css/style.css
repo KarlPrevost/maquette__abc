@@ -1,0 +1,247 @@
+* {
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+    margin: 0;
+	list-style: none;
+}
+
+body{ 
+	font-family: "Droid Sans";
+	color:  grey;
+}
+
+
+.droid-serif{
+	font-family: "Droid Serif";
+}
+
+a,a:hover{
+	text-decoration: none;
+	color: grey;
+}
+
+
+.orange{
+	color: #FF5B00;
+	padding-bottom: 8px;
+}
+.smallText{
+	font-style: italic;
+	padding-bottom: 15px;
+}
+
+.lirePlus{
+	font-style: italic;
+	padding: 10px 0;
+}
+
+.barre1{
+    width: 120px;
+    height: 6px;
+	background-color: #FF5B00 ;
+	margin: 10px 20px 10px 0px;	
+}
+
+.barre2{
+    width: 150px;
+    height: 6px;
+	background-color: #FFD300;
+	margin: 10px 20px 10px 0px;	
+}
+
+.barre3{
+    width: 100px;
+    height: 6px;
+	background-color: #9DC73A;
+	margin: 10px 20px 10px 0px;	
+}
+
+.barre4{
+    width: 150px;
+    height: 6px;
+	background-color: #1B7FEC;
+	margin: 10px 20px 10px 0px;	
+}
+
+.barre5{
+    width: 150px;
+    height: 6px;
+	background-color: #AB49C3;
+	margin: 10px 20px 10px 0px;	
+}
+
+.logo{
+	margin-right: 200px;
+	position: relative;
+	/* top 10px; */
+	/* choqué et déçu il se rendit compte que ces manipulations devinrent inutiles après formatage du menu */
+}
+header{	
+	padding-left: 400px;
+	padding-top: 30px;
+	background-image: url(img/grille.png);
+	background-repeat: repeat;
+	height: 150px;
+}
+
+.nav,ul{
+	display: inline-block;
+	text-align: justify;
+}
+
+li:first-of-type{
+	font-family: "Oswald";
+	font-weight: bold	;
+}
+
+.navSousCategories
+{
+	margin: 7px 0;
+	font-size: 0.8em;
+}
+
+.onFaitUnePetiteBarreDeSeparation{
+	width: 100%;
+    height: 1px;
+	background-color: #F2F2F2;
+	margin: 10px 0px 10px 0px;	
+}
+
+.videoYoutube{
+	display: block;
+	margin: 30px auto;
+}
+
+.sectionMiD{
+	text-align: center;
+	vertical-align: middle;
+	padding: 50px 0 50px 0;
+	background-image: url(img/grille.png);
+	background-repeat: repeat;
+	font-family: "Droid Serif";
+	font-style: italic;
+	font-weight: bold;
+}
+
+.golf{
+	width: 250px;
+	height:350px;
+	border: 1px black solid;
+	margin-left: 390px;
+	display: inline-block;
+	vertical-align: top; /* chelou */
+	padding: 20px 10px 20px 10px;;
+}
+
+.accroEtFastFood{
+	width: 200px;
+	height: 400px;
+	display: inline-block;
+	border: 1px transparent solid;
+	padding: 20px 40px 20px 20px;
+}
+
+.imageArbre{
+	border: 1px solid #F2F2F2;
+	padding: 7px;
+	margin: 4px;
+}
+
+.commentaireSection{
+	width: 600px;
+	height: 300px;
+	display: inline-block;
+	vertical-align: top; /* chelou */
+	border: 1px transparent solid;
+	padding: 20px
+}
+
+.accroEtFastFood{
+	display: inline-block;
+}
+
+.accro-img{
+	display: inline-block;
+}
+
+.image-ligne-1, .image-ligne-2{
+	display: inline-block;	
+}
+.coucou{
+	padding: 10px;
+
+}
+
+.footer-fat{	
+	background-image: url(img/grille.png);
+	background-repeat: repeat;
+	padding: 40px 400px;
+}
+
+.grid-container {
+	display: grid;
+	grid-column-gap: 20px;
+}
+
+.grid-item1{
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+.grid-item2{
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+.grid-item3{
+	grid-column-start: 4;
+	grid-column-end: 5;
+}
+.grid-item4{
+	grid-column-start: 5;
+	grid-column-end: 6;
+}
+
+.footer-fit{
+	display: grid;
+	grid-column-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+	/* justify-content: space-between; reduire a 2 le nombre de colonnes */
+	padding: 40px 400px;
+}
+
+.footerTextes{
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+.footerLinks{
+	grid-column-start: 5;
+	grid-column-end: 7;
+	justify-self: end;
+}
+
+.iconesFooter{
+	vertical-align:top;
+}
+
+h3{
+	margin-bottom: 20px;
+}
+
+.join{
+	/* line-height: 0.9em; */
+}
+
+.paraFooter{
+line-height: 1.25em;
+}
+
+.paraFooter2{
+	line-height: 2.5em;
+}
+
+.imageFooter{
+	width:45px;
+	height:45px;
+}
